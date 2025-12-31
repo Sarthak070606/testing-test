@@ -37,3 +37,7 @@
 #  git help commit
 hii gise  
 
+# git diff command 
+git diff
+then 
+git diff --staged 
