@@ -41,3 +41,14 @@ hii gise
 git diff
 then 
 git diff --staged 
+
+# git commit command
+git clean command 
+git rename 
+git move file command
+git undo commit 
+git undo 
+git stages 
+
+
+
