@@ -44,6 +44,7 @@ git diff --staged
 
 # git commit command
 git clean command 
+# git clean -n , git clean -f is used to  remove the untracted file like any file is not tracted or added by git git add it will be removed automatically bny git clean -f = flush git clean -fd for direactory 
 git rename 
 git move file command
 git undo commit 
