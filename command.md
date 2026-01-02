@@ -88,3 +88,15 @@ git checkout -b feature1
 
 Create and switch (modern & recommended)
 git switch -c feature1
+
+
+1. Rename Branch
+▶ Rename current branch
+git branch -m new-name
+
+▶ Rename another branch
+git branch -m old-name new-name
+
+Delete Branches
+▶ Delete local branch (safe)
+git branch -d feature1
