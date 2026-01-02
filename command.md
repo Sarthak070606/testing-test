@@ -1,7 +1,6 @@
 
 
-# git commands 
-# Remove-Item -Recurse -Force .git
+# git commands Remove-Item -Recurse -Force .git
 # git config --global user.name "Your Name"
 # git config --global user.email "your@email.com"
 # git config --global core.editor "code --wait"
@@ -38,7 +37,7 @@
 #  git help commit
 hii gise  
 
-# git diff command 
+# git diff command cle
 git diff
 then 
 git diff --staged 
@@ -46,17 +45,9 @@ git diff --staged
 # git commit command
 git clean command 
 # git clean -n , git clean -f is used to  remove the untracted file like any file is not tracted or added by git git add it will be removed automatically bny git clean -f = flush git clean -fd for direactory 
-git rename
-git mv old_filename to new_filename
-
-
+git rename 
 git move file command
-git mv old_filename to new_filename
-same command
-
-
 git undo commit 
-
 git undo 
 git stages 
 to create a file we use ==  New-Item padai.py
@@ -77,6 +68,23 @@ git reset --mixed HEAD~1
 git reset --hard HEAD~1
 
 
+git revert commit id 
+
+# Now starting with the 🌿 Git Branch Commands – FULL GUIDE
+# 1. View Branches
+# git branch    
+<!-- List all remote branches
+git branch -r -->
 
 
+List local + remote branches
+git branch -a or git branch 
+Create Branches
+▶ Create a new branch
+git branch feature1
 
+Create and switch (old way)
+git checkout -b feature1
+
+Create and switch (modern & recommended)
+git switch -c feature1
