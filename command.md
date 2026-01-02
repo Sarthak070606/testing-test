@@ -1,6 +1,7 @@
 
 
-# git commands Remove-Item -Recurse -Force .git
+# git commands 
+# Remove-Item -Recurse -Force .git
 # git config --global user.name "Your Name"
 # git config --global user.email "your@email.com"
 # git config --global core.editor "code --wait"
@@ -45,11 +46,37 @@ git diff --staged
 # git commit command
 git clean command 
 # git clean -n , git clean -f is used to  remove the untracted file like any file is not tracted or added by git git add it will be removed automatically bny git clean -f = flush git clean -fd for direactory 
-git rename 
+git rename
+git mv old_filename to new_filename
+
+
 git move file command
+git mv old_filename to new_filename
+same command
+
+
 git undo commit 
+
 git undo 
 git stages 
+to create a file we use ==  New-Item padai.py
+
+5f31a11 (HEAD -> main) important
+ab4c435 ok
+e9fca31 Add git command reference note3
+219943b Add git command reference note2
+1eba574 (master) Add git command reference note1
+b239e3b Add git command reference notes
+PS C:\Users\Sarthak jain\Desktop\git>  so 5f31 is commit id 
+git show 6caf30a is used to check the git commit  history 
+
+> git log --oneline is used to check all the checkpoint done 
+
+how to undo the git = git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+
+
 
 
 

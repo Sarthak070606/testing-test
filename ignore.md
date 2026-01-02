@@ -1,0 +1,1 @@
+how to undo the git commit uding revert and reset cpommand
