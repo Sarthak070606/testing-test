@@ -1,5 +1,4 @@
-
-
+#git init
 # git commands Remove-Item -Recurse -Force .git
 # git config --global user.name "Your Name"
 # git config --global user.email "your@email.com"
