@@ -7,6 +7,7 @@
 # git config --global pull.rebase true
 # git config --global alias.cm commit
 # git config --global alias.unstage "restore --staged"
+# git rev-list --count HEAD
 
 # u = untracted , A = Added , C = Commited:
 
